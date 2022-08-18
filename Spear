@@ -1,0 +1,431 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Tool0 = Instance.new("Tool")
+Part1 = Instance.new("Part")
+Weld2 = Instance.new("Weld")
+Weld3 = Instance.new("Weld")
+Part4 = Instance.new("Part")
+Weld5 = Instance.new("Weld")
+Weld6 = Instance.new("Weld")
+Script7 = Instance.new("Script")
+Part8 = Instance.new("Part")
+Weld9 = Instance.new("Weld")
+Weld10 = Instance.new("Weld")
+Script11 = Instance.new("Script")
+Part12 = Instance.new("Part")
+Weld13 = Instance.new("Weld")
+Weld14 = Instance.new("Weld")
+Script15 = Instance.new("Script")
+Part16 = Instance.new("Part")
+Weld17 = Instance.new("Weld")
+Weld18 = Instance.new("Weld")
+Script19 = Instance.new("Script")
+Part20 = Instance.new("Part")
+Weld21 = Instance.new("Weld")
+Weld22 = Instance.new("Weld")
+Weld23 = Instance.new("Weld")
+Weld24 = Instance.new("Weld")
+Part25 = Instance.new("Part")
+Weld26 = Instance.new("Weld")
+Weld27 = Instance.new("Weld")
+Script28 = Instance.new("Script")
+Tool0.Name = "Spear"
+Tool0.Parent = mas
+Tool0.Grip = CFrame.new(0.380005598, 0, 0, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+Tool0.GripPos = Vector3.new(0.3800055980682373, 0, 0)
+Tool0.GripRight = Vector3.new(0, 1, 0)
+Tool0.GripUp = Vector3.new(-1, 0, 0)
+Part1.Name = "Handle"
+Part1.Parent = Tool0
+Part1.CFrame = CFrame.new(-1.14916992, 13.2600002, 77.8199463, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part1.Orientation = Vector3.new(0, 0, -90)
+Part1.Position = Vector3.new(-1.149169921875, 13.260000228881836, 77.8199462890625)
+Part1.Rotation = Vector3.new(0, 0, -90)
+Part1.Color = Color3.new(0.337255, 0.258824, 0.211765)
+Part1.Size = Vector3.new(6.519999980926514, 1, 0.35999998450279236)
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.BrickColor = BrickColor.new("Medium brown")
+Part1.Material = Enum.Material.Wood
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.brickColor = BrickColor.new("Medium brown")
+Part1.Shape = Enum.PartType.Cylinder
+Weld2.Parent = Part1
+Weld2.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld2.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld2.Part0 = Part12
+Weld2.Part1 = Part16
+Weld2.part1 = Part16
+Weld3.Parent = Part1
+Weld3.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld3.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld3.Part0 = Part12
+Weld3.Part1 = Part16
+Weld3.part1 = Part16
+Part4.Parent = Part1
+Part4.CFrame = CFrame.new(-1.14414978, 18.1249981, 77.7999573, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part4.Orientation = Vector3.new(0, 0, -90)
+Part4.Position = Vector3.new(-1.1441497802734375, 18.124998092651367, 77.79995727539062)
+Part4.Rotation = Vector3.new(0, 0, -90)
+Part4.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part4.Size = Vector3.new(0.32999998331069946, 0.6699999570846558, 0.23999997973442078)
+Part4.BottomSurface = Enum.SurfaceType.Smooth
+Part4.BrickColor = BrickColor.new("Dark stone grey")
+Part4.Material = Enum.Material.Slate
+Part4.TopSurface = Enum.SurfaceType.Smooth
+Part4.brickColor = BrickColor.new("Dark stone grey")
+Part4.Shape = Enum.PartType.Cylinder
+Weld5.Parent = Part4
+Weld5.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld5.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld5.Part0 = Part12
+Weld5.Part1 = Part16
+Weld5.part1 = Part16
+Weld6.Parent = Part4
+Weld6.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld6.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld6.Part0 = Part12
+Weld6.Part1 = Part16
+Weld6.part1 = Part16
+Script7.Name = "Damage Script"
+Script7.Parent = Part4
+table.insert(cors,sandbox(Script7,function()
+function onTouched(hit)
+        local human = hit.Parent:findFirstChild("Humanoid")
+        if (human ~= nil) then
+                human.Health = human.Health - 10 -- Change the amount to change the damage.
+        end
+end
+script.Parent.Touched:connect(onTouched)
+end))
+Part8.Parent = Part1
+Part8.CFrame = CFrame.new(-1.1541748, 16.7849998, 77.8049622, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part8.Orientation = Vector3.new(0, 0, -90)
+Part8.Position = Vector3.new(-1.1541748046875, 16.78499984741211, 77.80496215820312)
+Part8.Rotation = Vector3.new(0, 0, -90)
+Part8.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part8.Size = Vector3.new(0.5899999737739563, 0.8299999833106995, 0.6899999380111694)
+Part8.BottomSurface = Enum.SurfaceType.Smooth
+Part8.BrickColor = BrickColor.new("Dark stone grey")
+Part8.Material = Enum.Material.Slate
+Part8.TopSurface = Enum.SurfaceType.Smooth
+Part8.brickColor = BrickColor.new("Dark stone grey")
+Part8.Shape = Enum.PartType.Cylinder
+Weld9.Parent = Part8
+Weld9.C0 = CFrame.new(-0.295000076, 0, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld9.C1 = CFrame.new(0.264999866, -0.0100097656, 1.52587891e-05, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld9.Part0 = Part8
+Weld9.Part1 = Part16
+Weld9.part1 = Part16
+Weld10.Parent = Part8
+Weld10.C0 = CFrame.new(0.295000076, -1.52587891e-05, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld10.C1 = CFrame.new(-3.22999954, -0.0050201416, -0.0149841309, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld10.Part0 = Part8
+Weld10.Part1 = Part1
+Weld10.part1 = Part1
+Script11.Name = "Damage Script"
+Script11.Parent = Part8
+table.insert(cors,sandbox(Script11,function()
+function onTouched(hit)
+        local human = hit.Parent:findFirstChild("Humanoid")
+        if (human ~= nil) then
+                human.Health = human.Health - 10 -- Change the amount to change the damage.
+        end
+end
+script.Parent.Touched:connect(onTouched)
+end))
+Part12.Parent = Part1
+Part12.CFrame = CFrame.new(-1.14416504, 17.789999, 77.8049622, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part12.Orientation = Vector3.new(0, 0, -90)
+Part12.Position = Vector3.new(-1.1441650390625, 17.78999900817871, 77.80496215820312)
+Part12.Rotation = Vector3.new(0, 0, -90)
+Part12.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part12.Size = Vector3.new(0.37999996542930603, 0.7699999809265137, 0.3699999749660492)
+Part12.BottomSurface = Enum.SurfaceType.Smooth
+Part12.BrickColor = BrickColor.new("Dark stone grey")
+Part12.Material = Enum.Material.Slate
+Part12.TopSurface = Enum.SurfaceType.Smooth
+Part12.brickColor = BrickColor.new("Dark stone grey")
+Part12.Shape = Enum.PartType.Cylinder
+Weld13.Parent = Part12
+Weld13.C0 = CFrame.new(-0.18999958, 1.52587891e-05, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld13.C1 = CFrame.new(0.144999504, 0, 0.00500488281, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld13.Part0 = Part12
+Weld13.Part1 = Part4
+Weld13.part1 = Part4
+Weld14.Parent = Part12
+Weld14.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld14.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld14.Part0 = Part12
+Weld14.Part1 = Part16
+Weld14.part1 = Part16
+Script15.Name = "Damage Script"
+Script15.Parent = Part12
+table.insert(cors,sandbox(Script15,function()
+function onTouched(hit)
+        local human = hit.Parent:findFirstChild("Humanoid")
+        if (human ~= nil) then
+                human.Health = human.Health - 10 -- Change the amount to change the damage.
+        end
+end
+script.Parent.Touched:connect(onTouched)
+end))
+Part16.Parent = Part1
+Part16.CFrame = CFrame.new(-1.14416504, 17.3449993, 77.8049469, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part16.Orientation = Vector3.new(0, 0, -90)
+Part16.Position = Vector3.new(-1.1441650390625, 17.344999313354492, 77.80494689941406)
+Part16.Rotation = Vector3.new(0, 0, -90)
+Part16.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part16.Size = Vector3.new(0.5099999904632568, 0.809999942779541, 0.5099999904632568)
+Part16.BottomSurface = Enum.SurfaceType.Smooth
+Part16.BrickColor = BrickColor.new("Dark stone grey")
+Part16.Material = Enum.Material.Slate
+Part16.TopSurface = Enum.SurfaceType.Smooth
+Part16.brickColor = BrickColor.new("Dark stone grey")
+Part16.Shape = Enum.PartType.Cylinder
+Weld17.Parent = Part16
+Weld17.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld17.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld17.Part0 = Part12
+Weld17.Part1 = Part16
+Weld17.part1 = Part16
+Weld18.Parent = Part16
+Weld18.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld18.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld18.Part0 = Part12
+Weld18.Part1 = Part16
+Weld18.part1 = Part16
+Script19.Name = "Damage Script"
+Script19.Parent = Part16
+table.insert(cors,sandbox(Script19,function()
+function onTouched(hit)
+        local human = hit.Parent:findFirstChild("Humanoid")
+        if (human ~= nil) then
+                human.Health = human.Health - 10 -- Change the amount to change the damage.
+        end
+end
+script.Parent.Touched:connect(onTouched)
+end))
+Part20.Parent = Part1
+Part20.CFrame = CFrame.new(-1.14920044, 15.1700001, 77.8199463, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part20.Orientation = Vector3.new(0, 0, -90)
+Part20.Position = Vector3.new(-1.149200439453125, 15.170000076293945, 77.8199462890625)
+Part20.Rotation = Vector3.new(0, 0, -90)
+Part20.Color = Color3.new(0.337255, 0.258824, 0.211765)
+Part20.Size = Vector3.new(2.6399998664855957, 0.2199999988079071, 0.41999995708465576)
+Part20.BottomSurface = Enum.SurfaceType.Smooth
+Part20.BrickColor = BrickColor.new("Medium brown")
+Part20.Material = Enum.Material.Wood
+Part20.TopSurface = Enum.SurfaceType.Smooth
+Part20.brickColor = BrickColor.new("Medium brown")
+Part20.Shape = Enum.PartType.Cylinder
+Weld21.Parent = Part20
+Weld21.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld21.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld21.Part0 = Part12
+Weld21.Part1 = Part16
+Weld21.part1 = Part16
+Weld22.Parent = Part20
+Weld22.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld22.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld22.Part0 = Part12
+Weld22.Part1 = Part16
+Weld22.part1 = Part16
+Weld23.Parent = Part20
+Weld23.C0 = CFrame.new(1.31999969, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld23.C1 = CFrame.new(-1.32000017, -1.52587891e-05, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld23.Part0 = Part20
+Weld23.Part1 = Part25
+Weld23.part1 = Part25
+Weld24.Parent = Part20
+Weld24.C0 = CFrame.new(-1.31999969, 0, 1.52587891e-05, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld24.C1 = CFrame.new(0.294999599, 0.00497436523, 0.0149993896, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Weld24.Part0 = Part20
+Weld24.Part1 = Part8
+Weld24.part1 = Part8
+Part25.Parent = Part1
+Part25.CFrame = CFrame.new(-1.14918518, 12.5300007, 77.8199463, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+Part25.Orientation = Vector3.new(0, 0, -90)
+Part25.Position = Vector3.new(-1.1491851806640625, 12.530000686645508, 77.8199462890625)
+Part25.Rotation = Vector3.new(0, 0, -90)
+Part25.Color = Color3.new(0.768627, 0.156863, 0.109804)
+Part25.Size = Vector3.new(2.6399998664855957, 1, 0.41999995708465576)
+Part25.BottomSurface = Enum.SurfaceType.Smooth
+Part25.BrickColor = BrickColor.new("Bright red")
+Part25.Material = Enum.Material.Fabric
+Part25.TopSurface = Enum.SurfaceType.Smooth
+Part25.brickColor = BrickColor.new("Bright red")
+Part25.Shape = Enum.PartType.Cylinder
+Weld26.Parent = Part25
+Weld26.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld26.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld26.Part0 = Part12
+Weld26.Part1 = Part16
+Weld26.part1 = Part16
+Weld27.Parent = Part25
+Weld27.C0 = CFrame.new(0.190000057, 0, 0, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld27.C1 = CFrame.new(-0.255000114, 0, 1.52587891e-05, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+Weld27.Part0 = Part12
+Weld27.Part1 = Part16
+Weld27.part1 = Part16
+Script28.Name = "SwordScript"
+Script28.Parent = Tool0
+table.insert(cors,sandbox(Script28,function()
+-------- OMG HAX
+
+r = game:service("RunService")
+
+
+local damage = 0
+
+
+local slash_damage = 0
+
+
+sword = script.Parent.Handle
+Tool = script.Parent
+
+
+local SlashSound = Instance.new("Sound")
+SlashSound.SoundId = "rbxasset://sounds\\swordslash.wav"
+SlashSound.Parent = sword
+SlashSound.Volume = .7
+
+
+local UnsheathSound = Instance.new("Sound")
+UnsheathSound.SoundId = "rbxasset://sounds\\unsheath.wav"
+UnsheathSound.Parent = sword
+UnsheathSound.Volume = 1
+
+
+function blow(hit)
+	local humanoid = hit.Parent:findFirstChild("Humanoid of the Monster here ( make sure its humanoid is not named humanoid)")
+	local vCharacter = Tool.Parent
+	local vPlayer = game.Players:playerFromCharacter(vCharacter)
+	local hum = vCharacter:findFirstChild("Humanoid") -- non-nil if tool held by a character
+	if humanoid~=nil and humanoid ~= hum and hum ~= nil then
+		-- final check, make sure sword is in-hand
+
+		local right_arm = vCharacter:FindFirstChild("Right Arm")
+		if (right_arm ~= nil) then
+			local joint = right_arm:FindFirstChild("RightGrip")
+			if (joint ~= nil and (joint.Part0 == sword or joint.Part1 == sword)) then
+				tagHumanoid(humanoid, vPlayer)
+				humanoid:TakeDamage(damage)
+				wait(1)
+				untagHumanoid(humanoid)
+			end
+		end
+
+
+	end
+end
+
+
+function tagHumanoid(humanoid, player)
+	local creator_tag = Instance.new("ObjectValue")
+	creator_tag.Value = player
+	creator_tag.Name = "creator"
+	creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+	if humanoid ~= nil then
+		local tag = humanoid:findFirstChild("creator")
+		if tag ~= nil then
+			tag.Parent = nil
+		end
+	end
+end
+
+
+function attack()
+	damage = slash_damage
+	SlashSound:play()
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Slash"
+	anim.Parent = Tool
+end
+
+
+function swordUp()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,1)
+end
+
+function swordOut()
+	Tool.GripForward = Vector3.new(0,0,1)
+	Tool.GripRight = Vector3.new(0,-1,0)
+	Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+
+
+Tool.Enabled = true
+
+function onActivated()
+
+	if not Tool.Enabled then
+		return
+	end
+
+	Tool.Enabled = false
+
+	local character = Tool.Parent;
+	local humanoid = character.Humanoid
+	if humanoid == nil then
+		print("Humanoid not found")
+		return 
+	end
+
+	
+
+	attack()
+
+	wait(.5)
+
+	Tool.Enabled = true
+end
+
+
+function onEquipped()
+	UnsheathSound:play()
+end
+
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+
+connection = sword.Touched:connect(blow)
+
+
+
+end))
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = game:GetService("Players").LocalPlayer.Backpack
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
